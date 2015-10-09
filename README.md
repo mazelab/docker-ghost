@@ -2,6 +2,8 @@
 Docker image that allows running [Ghost](https://github.com/TryGhost/Ghost) in production mode,
 and is a bit more configurable than the [official Ghost Docker image](https://registry.hub.docker.com/_/ghost/).
 
+forked from [ptimof/docker-ghost](https://github.com/ptimof/docker-ghost)
+
 ## Why yet another container for Ghost?
 
 The official container for Ghost is fine for running in development mode, but it has the wrong
