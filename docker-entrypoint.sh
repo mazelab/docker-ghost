@@ -6,7 +6,7 @@ if [[ "$*" == npm*start* ]]; then
 		targetDir="$GHOST_CONTENT/$(basename "$dir")"
 		mkdir -p "$targetDir"
 		if [ -z "$(ls -A "$targetDir")" ]; then
-			tar -c --one-file-system -C "$dir" . | tar xC "$targetDir"
+		  cp -r $dir* $targetDir/.
 		fi
 	done
 
