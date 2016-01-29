@@ -1,4 +1,4 @@
-FROM ghost:0.7.1
+FROM ghost:0.7.5
 
 MAINTAINER Marcel Kilian <cdskilian@gmail.com>
 
